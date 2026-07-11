@@ -58,6 +58,7 @@ module top(clk, rst);
         ALUop,
         instr[14:12],
         instr[30],
+        instr[5],
         ALU_control_signal
     );
 
